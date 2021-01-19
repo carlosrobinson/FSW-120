@@ -1,0 +1,157 @@
+body {
+    margin: 10px;
+} 
+
+.my-form {
+    position: relative;
+    display: block;
+    flex-direction: row;
+    justify-items:flex-start;
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    width: 500px;
+    height: 260px;
+}
+
+#my-area {
+    position: relative;
+    width: 380px;
+    height: 100px;
+    left: 52px;
+    bottom:10px;
+}
+
+#my-button {
+    position: relative;
+    right: 180px;
+    top: 20px;
+    width: 100px;
+}
+
+#input-1 {
+    position: relative;
+    display: block;
+    left: 50px;
+}
+
+#input-2 {
+    position: relative;
+    display: block;
+    left: 265px;
+    bottom: 20px;
+    width: 200px;
+}
+
+#input-3 {
+    position: relative;
+    display: block;
+    left: 50px;
+    bottom: 5px;
+    width: 200px;
+}
+
+#input-4 {
+    position: relative;
+    display: block;
+    left: 265px;
+    bottom: 25px;
+    width: 200px;
+}
+
+#input-5 {
+    position: relative;
+    display: block;
+    left: 50px;
+    bottom: 5px;
+    width: 200px;
+}
+
+#input-6 {
+    position: relative;
+    display: block;
+    left: 265px;
+    bottom: 25px;
+    width: 200px;
+}
+
+/*Form 2*/
+.my-form2 {
+    position: relative;
+    display: block;
+    flex-direction: row;
+    justify-items:flex-start;
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid grey;
+    border-radius: 10px 10px;
+    width: 500px;
+    height: 210px;
+}
+
+#my-area2 {
+    position: relative;
+    width: 380px;
+    height: 100px;
+    left: 52px;
+    top: 10px;
+} 
+
+#my-badge {
+    position: relative;
+    display: block;
+    top: 46px;
+    left: 25px;
+    border: 1px solid grey;
+    border-radius: 5px 5px;
+    width: 550px;
+    height: 24px;
+    background-color: grey;
+}
+
+#my-label1 {
+    position: relative;
+    display: block;
+    left: 50px;
+}
+
+#my-label2 {
+    position: relative;
+    display: block;
+    left: 285px;
+    bottom: 20px;
+    width: 200px;
+}
+
+#my-label3 {
+    position: relative;
+    display: block;
+    left: 50px;
+    bottom: 5px;
+    width: 200px;
+}
+
+#my-label4 {
+    position: relative;
+    display: block;
+    left: 285px;
+    bottom: 25px;
+    width: 200px;  
+}
+
+#my-label5 {
+    position: relative;
+    display: block;
+    left: 50px;
+    bottom: 5px;
+    width: 200px;
+}
+
+#my-label6 {
+    position: relative;
+    display: block;
+    left: 265px;
+    bottom: 25px;
+    width: 200px;
+}

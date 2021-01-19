@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gold;
+}
+
+div .myBox-grid {
+    position: relative;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    margin: 25px;
+}
+
+div .myBox-grid > div:nth-child(1) {
+    border: 2px solid black;
+
+}
+
+div .myBox-grid > div:nth-child(2) {
+    border: 2px solid black;
+}
+
+div .myBox-grid > div:nth-child(3) {
+    border: 2px solid black;
+}
+
+div .myBox-grid > div:nth-child(4) {
+    border: 2px solid black;
+}
