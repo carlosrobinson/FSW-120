@@ -29,7 +29,7 @@ function App(){
                 </Route>
             </Switch>
             <main id= "main">
-                My Main
+
             </main>
             <footer id= "footer">My Footer</footer>
         </div>
