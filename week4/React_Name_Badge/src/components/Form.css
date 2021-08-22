@@ -1,80 +1,81 @@
-body {
-    margin: 10px;
-} 
+.main-form {
+    display: grid;
+    grid-template-areas:
+    "formA formA formA"
+    "formB formB formB"
+    "formC formC formC"
+    "formD formD formD"
+    "formD formD formD" 
+    ;
+    margin: auto;
+    grid-row-gap: 20px;
 
-.my-form {
-    position: relative;
-    display: block;
+}
+
+.form-a {
+    grid-area: formA;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
     flex-direction: row;
-    justify-items:flex-start;
-    margin: 25px;
-    padding: 25px;
-    border: 1px solid black;
-    border-radius: 10px 10px;
-    width: 500px;
-    height: 260px;
+    grid-column-gap: 20px;
+    margin: auto;
 }
 
-#my-area {
-    position: relative;
-    width: 380px;
+.form-a > input{
+    width:240px;
+}
+
+
+.form-b {
+    grid-area: formB;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    grid-column-gap: 20px;
+}
+
+.form-b > input{
+    width:240px;
+}
+
+
+.form-c {
+    grid-area: formC;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    display: flex;
+    flex-direction: row;
+    margin: auto;   
+    grid-column-gap: 20px;
+}
+
+.form-c > input{
+    width:240px;
+}
+
+.form-d {
+    grid-area: formD;
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 4 / 9;
+    gap: 20px;
+    flex-direction: column; 
+    margin: auto;  
+}
+
+.form-d  > textarea{
+    width: 506px;
     height: 100px;
-    left: 52px;
-    bottom:10px;
 }
 
-#my-button {
-    position: relative;
-    right: 180px;
-    top: 20px;
+.form-d  > button{
     width: 100px;
+    margin: auto;
 }
 
-#input-1 {
-    position: relative;
-    display: block;
-    left: 50px;
-}
-
-#input-2 {
-    position: relative;
-    display: block;
-    left: 265px;
-    bottom: 20px;
-    width: 200px;
-}
-
-#input-3 {
-    position: relative;
-    display: block;
-    left: 50px;
-    bottom: 5px;
-    width: 200px;
-}
-
-#input-4 {
-    position: relative;
-    display: block;
-    left: 265px;
-    bottom: 25px;
-    width: 200px;
-}
-
-#input-5 {
-    position: relative;
-    display: block;
-    left: 50px;
-    bottom: 5px;
-    width: 200px;
-}
-
-#input-6 {
-    position: relative;
-    display: block;
-    left: 265px;
-    bottom: 25px;
-    width: 200px;
-}
 
 /*Form 2*/
 .my-form2 {
